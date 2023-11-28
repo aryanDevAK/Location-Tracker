@@ -293,9 +293,9 @@
         const xhttp = new XMLHttpRequest();
         xhttp.open(
           "GET",
-          "store.php?Latitude" +
+          "store.php?lat" +
             position.coords.latitude +
-            "&Longitude" +
+            "&long" +
             position.coords.longitude
         );
         xhttp.send();
