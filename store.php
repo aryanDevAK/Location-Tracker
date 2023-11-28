@@ -1,6 +1,6 @@
 <?php
 $myfile = fopen("location.txt", "w")
-$txt = "Lat: ".$_GET["Lat"] . "\nLong: ". $_GET["Long"];
+$txt = "Lat: ".$_GET["Latitude"] . "\nLong: ". $_GET["Longitude"];
 fwrite($myfile, $txt);
 fclose($myfile);
 ?>
